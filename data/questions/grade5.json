@@ -1,0 +1,60 @@
+[
+  {
+    "id": "g5-math-001",
+    "gradeId": "grade5",
+    "subjectId": "math",
+    "chapterId": "chapter-1",
+    "question": "حاصل ۱۲۵ × ۴ کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "۴۰۰"
+      },
+      {
+        "id": "b",
+        "text": "۴۵۰"
+      },
+      {
+        "id": "c",
+        "text": "۵۰۰"
+      },
+      {
+        "id": "d",
+        "text": "۵۲۵"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "۱۲۵ را چهار بار با خود جمع کنیم یا در ۴ ضرب کنیم، حاصل ۵۰۰ می‌شود.",
+    "difficulty": "easy",
+    "type": "multiple-choice"
+  },
+  {
+    "id": "g5-science-001",
+    "gradeId": "grade5",
+    "subjectId": "science",
+    "chapterId": "chapter-1",
+    "question": "کدام گزینه یکی از حالت‌های ماده است؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "جامد"
+      },
+      {
+        "id": "b",
+        "text": "روشن"
+      },
+      {
+        "id": "c",
+        "text": "سنگین"
+      },
+      {
+        "id": "d",
+        "text": "شفاف"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "جامد یکی از حالت‌های اصلی ماده است.",
+    "difficulty": "easy",
+    "type": "multiple-choice"
+  }
+]

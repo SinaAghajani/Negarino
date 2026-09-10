@@ -1,36 +1,264 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎓 نگارینو | Negarino
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+**یک تجربه مدرن، ساده و جذاب برای یادگیری و آزمون آنلاین دانش‌آموزان ابتدایی**
+
+تمرین کن • آزمون بده • پیشرفت کن • بهتر یاد بگیر 🚀
+
+</div>
+
+---
+
+## ✨ درباره نگارینو
+
+**نگارینو (Negarino)** یک پلتفرم آموزشی تعاملی برای دانش‌آموزان دوره ابتدایی است که با هدف تبدیل تمرین‌های درسی به یک تجربه ساده، جذاب و انگیزه‌بخش طراحی شده است.
+
+دانش‌آموز می‌تواند پایه تحصیلی خود را انتخاب کند، وارد درس موردنظر شود، فصل را انتخاب کند و در یک آزمون تعاملی شرکت کند.
+
+در طراحی نگارینو تلاش شده است تجربه کاربری تا حد ممکن **ساده، سریع، کودک‌پسند و در عین حال حرفه‌ای** باشد.
+
+---
+
+## 🎯 مسیر یادگیری
+
+```text
+پایه تحصیلی
+     ↓
+انتخاب درس
+     ↓
+انتخاب فصل
+     ↓
+شروع آزمون
+     ↓
+پاسخ به سؤالات
+     ↓
+مشاهده نتیجه
+     ↓
+تلاش دوباره و پیشرفت
+```
+
+---
+
+## 🚀 امکانات
+
+- 🎒 پشتیبانی از پایه‌های چهارم، پنجم و ششم ابتدایی
+- 📚 دسته‌بندی محتوا بر اساس درس و فصل
+- 📝 آزمون‌های چهارگزینه‌ای
+- ⏱️ تایمر آزمون
+- 📊 نمایش میزان پیشرفت در آزمون
+- 🔢 دسترسی سریع به شماره سؤالات
+- 🔄 امکان تغییر پاسخ قبل از پایان آزمون
+- 💡 نمایش نکته و توضیح سؤال
+- 🏆 صفحه جدول امتیازات
+- 📈 نمایش نتیجه و درصد موفقیت
+- 🎨 رابط کاربری مدرن و مناسب دانش‌آموزان
+- 📱 طراحی Responsive برای موبایل، تبلت و دسکتاپ
+- ⚡ انیمیشن‌های نرم و تعاملی
+- 🌐 پشتیبانی کامل از زبان فارسی و راست‌چین
+
+---
+
+## 📚 درس‌ها
+
+نگارینو برای پوشش طیف متنوعی از دروس ابتدایی طراحی شده است:
+
+| درس                | وضعیت        |
+| ------------------ | ------------ |
+| ➗ ریاضی           | فعال         |
+| 🔬 علوم تجربی      | فعال         |
+| 📖 فارسی           | فعال         |
+| 🌍 مطالعات اجتماعی | فعال         |
+| 🌱 هدیه‌های آسمان  | فعال         |
+| 📗 قرآن            | در حال توسعه |
+
+محتوای آموزشی در پایه های پنجم و ششم به‌صورت مرحله‌ای در حال گسترش است.
+
+---
+
+## 🧠 معماری آزمون
+
+ساختار فعلی آزمون‌ها به‌گونه‌ای طراحی شده که بتوان در آینده منبع داده را بدون بازنویسی بخش اصلی رابط کاربری تغییر داد.
+
+در نسخه فعلی:
+
+```text
+JSON
+ ↓
+Question Data
+ ↓
+Quiz Store
+ ↓
+Quiz Components
+ ↓
+Result
+```
+
+و معماری آینده می‌تواند به شکل زیر توسعه پیدا کند:
+
+```text
+MongoDB
+ ↓
+NestJS API
+ ↓
+Next.js
+ ↓
+Quiz Experience
+```
+
+این ساختار باعث می‌شود نگارینو بتواند از یک پروژه Frontend ساده به یک **پلتفرم آموزشی Full-Stack** توسعه پیدا کند.
+
+---
+
+## 🛠️ تکنولوژی‌ها
+
+### Frontend
+
+- **Next.js 16**
+- **React 19**
+- **TypeScript**
+- **Tailwind CSS v4**
+
+### State Management
+
+- **Zustand**
+
+### UI & Animation
+
+- **Framer Motion**
+- **Lucide React**
+- **Vazirmatn**
+
+### Data
+
+- **JSON-based Question System**
+
+---
+
+## 🎨 طراحی رابط کاربری
+
+طراحی نگارینو بر پایه چند اصل انجام شده است:
+
+- سادگی در استفاده
+- خوانایی بالا
+- رنگ‌بندی مناسب فضای آموزشی
+- کارت‌های مدرن و Rounded
+- تعاملات سریع و واضح
+- طراحی Mobile First
+- استفاده از Micro Interactionهای ظریف
+- حفظ تعادل بین فضای کودکانه و ظاهر حرفه‌ای
+
+رنگ اصلی پروژه:
+
+```text
+Primary:  #2563EB
+Success:  #22C55E
+Warning:  #FACC15
+Background: #F8FAFC
+```
+
+---
+
+## ⚙️ نصب و اجرا
+
+ابتدا پروژه را Clone کنید:
+
+```bash
+git clone https://github.com/SinaAghajani/Negarino.git
+```
+
+وارد پوشه پروژه شوید:
+
+```bash
+cd Negarino
+```
+
+وابستگی‌ها را نصب کنید:
+
+```bash
+npm install
+```
+
+پروژه را در محیط توسعه اجرا کنید:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+سپس پروژه را در مرورگر باز کنید:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧪 Build Production
 
-To learn more about Next.js, take a look at the following resources:
+برای بررسی نسخه Production:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+و سپس:
 
-## Deploy on Vercel
+```bash
+npm run start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔮 مسیر توسعه
+
+نگارینو برای توسعه‌های آینده آماده شده و قابلیت‌های زیر می‌توانند به پروژه اضافه شوند:
+
+- 👤 سیستم ثبت‌نام و ورود دانش‌آموزان
+- 🧑‍🎓 پروفایل دانش‌آموز
+- 📊 داشبورد پیشرفت
+- 🏆 سیستم امتیاز و رتبه‌بندی واقعی
+- 🔥 سیستم Streak و حفظ پیوستگی یادگیری
+- 🎖️ Achievement و Badge
+- 🧩 آزمون‌های تصادفی
+- 🎯 آزمون بر اساس سطح دشواری
+- 📚 بانک سؤال گسترده
+- 🤖 پیشنهاد تمرین با کمک هوش مصنوعی
+- 🧠 تحلیل نقاط ضعف و قوت
+- 🔌 اتصال به NestJS
+- 🗄️ ذخیره اطلاعات در MongoDB
+- 👨‍🏫 پنل مدیریت برای معلمان
+- 📈 گزارش عملکرد دانش‌آموزان
+
+---
+
+## 💡 ایده اصلی
+
+هدف نگارینو فقط ساخت یک **Quiz App** نیست.
+
+ایده اصلی این است که یک تجربه آموزشی ایجاد شود که دانش‌آموز در آن:
+
+> **تمرین کند، بازخورد بگیرد، اشتباه کند، دوباره تلاش کند و پیشرفت خود را ببیند.**
+
+به همین دلیل ساختار پروژه از ابتدا با قابلیت توسعه به یک پلتفرم آموزشی بزرگ‌تر طراحی شده است.
+
+---
+
+## 👨‍💻 توسعه‌دهنده
+
+ساخته و توسعه داده شده توسط **سینا آقاجانی**
+
+تمرکز این پروژه بر ترکیب:
+
+**Education × Technology × Interactive Learning**
+
+است.
+
+---
+
+<div align="center">
+
+### 🌱 یادگیری بهتر، با تمرین بیشتر
+
+**Negarino — Learn. Practice. Improve. 🚀**
+
+</div>

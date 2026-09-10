@@ -1,0 +1,60 @@
+[
+  {
+    "id": "g6-math-001",
+    "gradeId": "grade6",
+    "subjectId": "math",
+    "chapterId": "chapter-1",
+    "question": "حاصل ۳/۴ + ۱/۴ کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "۱/۲"
+      },
+      {
+        "id": "b",
+        "text": "۳/۴"
+      },
+      {
+        "id": "c",
+        "text": "۱"
+      },
+      {
+        "id": "d",
+        "text": "۵/۴"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "چون مخرج دو کسر برابر است، صورت‌ها را جمع می‌کنیم: ۳ + ۱ = ۴ و ۴/۴ برابر با ۱ است.",
+    "difficulty": "easy",
+    "type": "multiple-choice"
+  },
+  {
+    "id": "g6-science-001",
+    "gradeId": "grade6",
+    "subjectId": "science",
+    "chapterId": "chapter-1",
+    "question": "کدام مورد نمونه‌ای از تغییر حالت ماده است؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "ذوب شدن یخ"
+      },
+      {
+        "id": "b",
+        "text": "پاره شدن کاغذ"
+      },
+      {
+        "id": "c",
+        "text": "خرد شدن سنگ"
+      },
+      {
+        "id": "d",
+        "text": "بریده شدن چوب"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "در ذوب شدن یخ، ماده از حالت جامد به حالت مایع تغییر می‌کند.",
+    "difficulty": "easy",
+    "type": "multiple-choice"
+  }
+]

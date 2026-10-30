@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { BookOpenCheck, Trophy } from "lucide-react";
+import { BookOpenCheck, Trophy, Code2 } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -73,14 +73,50 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="mt-10 flex flex-col gap-3 border-t border-slate-100 pt-6 text-center sm:flex-row sm:items-center sm:justify-between sm:text-right">
-            <p className="text-xs font-medium text-slate-400">
-              © {new Date().getFullYear()} نگارینو — همه حقوق محفوظ است.
-            </p>
+          <div className="mt-10 flex flex-col gap-5 border-t border-slate-100 pt-6">
+            <div className="flex flex-col items-center gap-2 text-center sm:flex-row sm:justify-between">
+              <p className="text-xs font-medium text-slate-400">
+                © {new Date().getFullYear()} نگارینو — همه حقوق محفوظ است.
+              </p>
 
-            <p className="text-xs font-medium text-slate-400">
-              ساخته شده برای یادگیری بهتر
-            </p>
+              <p className="text-xs font-medium text-slate-400">
+                ساخته شده برای یادگیری بهتر
+              </p>
+            </div>
+
+            <div className="flex flex-col items-center justify-center gap-3 border-t border-slate-100 pt-5">
+              <span className="text-xs font-medium text-slate-400">
+                طراحی و توسعه توسط
+              </span>
+
+              <a
+                href="https://github.com/SinaAghajani"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex flex-wrap items-center justify-center gap-2.5 text-sm font-extrabold text-slate-700 transition-colors hover:text-blue-600"
+              >
+                <Code2
+                  size={19}
+                  className="transition-transform group-hover:scale-110"
+                />
+
+                <span>سینا آقاجانی</span>
+
+                <span className="text-slate-300">|</span>
+
+                <span dir="ltr">Sina Aghajani</span>
+              </a>
+
+              <a
+                href="https://github.com/SinaAghajani"
+                target="_blank"
+                rel="noopener noreferrer"
+                dir="ltr"
+                className="text-xs font-medium text-slate-400 transition-colors hover:text-blue-600"
+              >
+                github.com/SinaAghajani
+              </a>
+            </div>
           </div>
         </div>
       </div>
